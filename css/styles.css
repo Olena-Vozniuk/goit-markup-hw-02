@@ -1,0 +1,109 @@
+:root{
+    --title-text-color:#212121;
+    --main-text-color:#757575;
+    --light-text-color:#FFFFFF;
+    --accent-color:#2196F3;
+    --dark-bg-color:#2F303A ;
+    --light-bg-color:#F5F4FA;
+    --phone-footer-color:rgba(255, 255, 255, 0.6)
+}
+body{
+    color: var(--main-text-color);
+    background-color: var(--light-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1,7;
+    font-weight: 400;
+    letter-spacing: 3%;
+}
+a{text-decoration: none;}
+.first-color-logo{
+    color:var(--accent-color);
+}
+.second-color-logo{
+    color: var(--title-text-color);
+}
+.third-color-logo{
+    color: var(--light-text-color);
+}
+ul{list-style: none;}
+.site-nav a{
+    color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus{
+    color: var(--accent-color);
+}
+.header-contacts a{
+    color: var(--main-text-color);
+}
+.header-contacts a:hover,
+.header-contacts a:focus{
+    color: var(--accent-color);
+}
+/* section hero */
+.hero{
+    background-color: var(--dark-bg-color);
+    color: var(--light-text-color);
+}
+.hero-btn{
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+    cursor: pointer;
+}
+/* section fetures */
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
+  .feauters-list > li >h3{
+    color: var(--title-text-color);
+  }
+  h2{
+    color: var(--title-text-color);
+  }
+  img{
+    display: block;
+  }
+/* section team */
+.section-team{
+background-color: var(--light-bg-color);
+}
+.team-list > li > h3{
+    color: var(--title-text-color);
+}
+/* section footer */
+.site-footer{
+    background-color: var(--dark-bg-color);
+}
+.footer-links a{
+    font-style: normal
+}
+.address{
+    color: var(--light-text-color);
+}
+.footer-mail,
+.footer-phone{
+color: var(--phone-footer-color);
+}
+.address:hover,
+.address:focus{
+    color: var(--accent-color);
+}
+.footer-mail:hover,
+.footer-mail:focus{
+    color: var(--accent-color);
+}
+.footer-phone:hover,
+.footer-mail:focus{
+color: var(--accent-color);
+}
